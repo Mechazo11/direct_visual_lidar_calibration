@@ -83,7 +83,7 @@ target_link_libraries(direct_visual_lidar_calibration
   Iridescence::Iridescence
 )
 
-
+# preprocess node switches between ROS 1 and ROS 2 depending on the ROS_VERSION enviornment variable
 if($ENV{ROS_VERSION} EQUAL 1)
   # ROS1
   add_executable(preprocess

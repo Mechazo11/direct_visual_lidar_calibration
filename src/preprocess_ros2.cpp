@@ -1,3 +1,8 @@
+/**
+ * @file preprocess_ros2.cpp
+ * @author Kenji Koide with comments added by Azmyin Md. Kamal
+ * @brief Extracts a number of pointcloud and camera images to generate a <dataset>_preprocessed directory suitable to perform calibration
+ */
 #include <vlcal/preprocess/preprocess.hpp>
 
 #include <rclcpp/rclcpp.hpp>
